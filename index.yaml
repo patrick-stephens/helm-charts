@@ -1,33 +1,15 @@
 apiVersion: v1
 entries:
-  couchbase-monitor-stack:
-  - apiVersion: v2
-    appVersion: 2.1.0
-    created: "2021-07-23T08:48:20.191531374Z"
-    dependencies:
-    - name: kube-prometheus-stack
-      repository: https://prometheus-community.github.io/helm-charts/
-      version: 12.8.*
-    - name: prometheus-adapter
-      repository: https://prometheus-community.github.io/helm-charts/
-      version: 2.10.0
-    description: A Helm chart for adding monitoring to any Couchbase cluster installation
-    digest: 6f981d75dda846ae3fc54298ada52bbdfb4378331363e31921509722453b786b
-    name: couchbase-monitor-stack
-    type: application
-    urls:
-    - https://github.com/patrick-stephens/helm-charts/releases/download/couchbase-monitor-stack-2.1.001/couchbase-monitor-stack-2.1.001.tgz
-    version: 2.1.001
   couchbase-operator:
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2021-07-23T08:48:20.384734Z"
+    created: "2021-07-23T10:40:55.750390209Z"
     description: A Helm chart to deploy the Couchbase Autonomous Operator for easily
       deploying, managing, and maintaining Couchbase Clusters. Couchbase Server is
       a NoSQL document database with a distributed architecture for performance, scalability,
       and availability. It enables developers to build applications easier and faster
       by leveraging the power of SQL with the flexibility of JSON.
-    digest: 8952b3c3578aff77f06d8cd74bc27c5cc1492aba0f96b26ea32f6e450e8c7356
+    digest: 28f8b51db2c88fbf162208e3fb6ea90f68f9b815cf21281ec49f1151abfadf9f
     home: https://couchbase.com
     icon: https://couchbase-partners.github.io/helm-charts/assets/img/CB_Logomark_220.png
     keywords:
@@ -49,6 +31,6 @@ entries:
     - https://docs.couchbase.com/operator/current/helm-setup-guide.html
     type: application
     urls:
-    - https://github.com/patrick-stephens/helm-charts/releases/download/couchbase-operator-2.2.005/couchbase-operator-2.2.005.tgz
-    version: 2.2.005
-generated: "2021-07-23T08:48:20.3847486Z"
+    - https://github.com/patrick-stephens/helm-charts/releases/download/couchbase-operator-2.2.006/couchbase-operator-2.2.006.tgz
+    version: 2.2.006
+generated: "2021-07-23T10:40:55.750395909Z"
